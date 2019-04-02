@@ -16,7 +16,3 @@ def test_building():
 
     for line in parsed:
         print(line)
-
-from medex.utils import sys_url
-
-test_parsing(sys_url("~/Downloads/Medex_UIMA_1.3.7"))
