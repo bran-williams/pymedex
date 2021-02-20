@@ -1,18 +1,13 @@
 # pymedex
 
-Python wrapper for the [MedEx](https://sbmi.uth.edu/ccb/resources/medex.htm) implementation 
-by the University of Texas. This wrapper was written for a project at the University of Iowa,
-but since no other python wrappers seem to be available, I have decided to upload this here. 
-
-This program essentially runs MedEx as any regular Java application.
+Python wrapper for this [MedEx](https://sbmi.uth.edu/ccb/resources/medex.htm) implementation by the University of Texas.
 
 ## Example Usage
 
-Running MedEx on some input directory with some output directory.
+To run MedEx with an input directory and an output directory,
 
-These input/output directorys *must* be absolute URLs since MedEx requires the working directory to be the same as the URL provided to the MedEx constructor.
+the input/output directories *must* be absolute URLs since MedEx will run within its working directory ("~/Medex_UIMA_1.3.7" in this example).
 
-If they are not absolute URLs, the program will find the input/output directories within its working directory.
 ```python
 from medex.medex import MedEx
 from medex.utils import sys_url
