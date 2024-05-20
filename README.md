@@ -1,6 +1,6 @@
 # pymedex
 
-Python wrapper for this [MedEx](https://sbmi.uth.edu/ccb/resources/medex.htm) implementation by the University of Texas.
+Python wrapper for this [MedEx](https://sbmi.uth.edu/ccb/tools/) ([direct link](https://code.google.com/archive/p/medex-uima/downloads)) implementation by the University of Texas.
 
 ## Example Usage
 
